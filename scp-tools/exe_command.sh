@@ -50,7 +50,7 @@ else
 			#$cmd_r
 			;;
 		'-p')
-			ssh -t -t p 22 root @ipm $cmd_poweroff
+			ssh -t -t p 22 root@$ipm $cmd_poweroff
 			#$cmd_poweroff
 			;;
 		'-m')
